@@ -1,0 +1,141 @@
+:root {
+  --color-primary: #434455;
+  --color-light: #ffffff;
+  --color-dark: #2e2f42;
+  --color-accent: #4d5ae5;
+
+  --background-color-primary: #ffffff;
+  --background-color-medium: #f4f4fd;
+  --background-color-dark: #2e2f42;
+  --background-color-accent: #4d5ae5;
+  --background-color-active: #404bbf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
+  background-color: var(--background-color-primary);
+}
+
+/* Общие элементы */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--color-primary);
+}
+
+.hidden {
+  display: none;
+}
+
+/* Логотип */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.logo-dark {
+  color: var(--color-dark);
+}
+
+.logo-light {
+  color: var(--color-light);
+}
+
+/* Кнопки */
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-single {
+  color: var(--color-light);
+  background-color: var(--background-color-accent);
+}
+
+.button-radio {
+  color: var(--color-accent);
+  background-color: var(--background-color-medium);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--color-light);
+  background-color: var(--background-color-accent);
+}
+
+.button:active {
+  background-color: var(--background-color-active);
+}
+
+/* Элементы секций */
+
+.navigation-item {
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.navigation-item:hover,
+.navigation-item:focus {
+  color: var(--color-primary);
+}
+
+.navigation-item:active {
+  color: var(--color-accent);
+}
+
+.address-item:hover,
+.address-item:focus {
+  color: var(--color-accent);
+}
+
+.section.solutions {
+  background-color: var(--background-color-dark);
+}
+
+.section.team {
+  background-color: var(--background-color-medium);
+}
+
+.section-hero {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--color-light);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--color-dark);
+}
+
+.section-caption {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-dark);
+}
+
+.footer {
+  color: var(--color-light);
+  background-color: var(--background-color-dark);
+}
