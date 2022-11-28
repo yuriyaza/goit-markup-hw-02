@@ -33,7 +33,11 @@ body {
 }
 
 .hidden {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
 }
 
 /* Логотип */
